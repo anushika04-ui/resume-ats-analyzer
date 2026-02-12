@@ -77,7 +77,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>AI Resume ATS Analyzer</h1>
+      <h1>Resume ATS Analyzer</h1>
       <p className="subtitle">
         Paste your resume and optional job description to get an ATS score and missing keywords.
       </p>
