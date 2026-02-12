@@ -18,3 +18,29 @@ A beginner-friendly full-stack project that analyzes resume text (or a PDF resum
 - PDF Text Extraction: Multer + pdf-parse
 
 ## Project Structure
+resume-ats-analyzer/
+│
+├── ats-frontend/                 # React Frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── App.js                # Main UI & API integration
+│   │   ├── App.css               # Styling
+│   │   └── index.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── server/                       # Node.js Backend
+│   ├── server.js                 # Express server setup
+│   ├── analyze.js                # ATS scoring logic
+│   ├── upload.js                 # PDF upload & extraction
+│   ├── uploads/                  # Temporary PDF storage
+│   ├── package.json
+│   └── package-lock.json
+│
+├── .gitignore
+└── README.md
+
+## Live Demo
+Frontend: https://resume-ats-analyzer-anushika.vercel.app
+Backend: https://ai-resume-ats-analyzer-2yrs.onrender.com
+
